@@ -7,6 +7,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
+            'unix-csv=nutri.scripts.gen_unix_csv:main',
         ],
     },
     name='nutri',
